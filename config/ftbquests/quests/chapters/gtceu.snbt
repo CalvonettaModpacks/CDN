@@ -242,25 +242,22 @@
 			size: 0.75d
 			subtitle: "Your first GT Tool!"
 			tasks: [{
-				icon: {
+				id: "47FC79D1607E7BE6"
+				item: {
 					Count: 1
-					id: "gtceu:steel_hammer"
+					id: "gtceu:wrought_iron_hammer"
 					tag: {
-						Damage: 0
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
 						GT.Tool: {
 							Damage: 0
+							HarvestLevel: 2
+							MaxDamage: 383
+							ToolSpeed: 6.0f
 						}
+						HideFlags: 2
 					}
 				}
-				id: "1A4DDB914D7D2F3C"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:tools/hammers"
-					}
-				}
-				title: "Any Hammer!"
 				type: "item"
 			}]
 			title: "STOP! Hammer time!"
@@ -428,39 +425,60 @@
 			size: 0.75d
 			tasks: [
 				{
-					id: "54E092F42DA65B86"
+					id: "4865E0B31BAA8E7D"
 					item: {
-						Count: 1b
-						id: "itemfilters:tag"
+						Count: 1
+						id: "gtceu:wrought_iron_wrench"
 						tag: {
-							value: "forge:tools/wrenches"
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								Mode: 2b
+							}
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 383
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
 						}
 					}
-					title: "Any Wrench!"
 					type: "item"
 				}
 				{
-					id: "4D6B7E2B4C8E5747"
+					id: "029A78CB7ADAB112"
 					item: {
-						Count: 1b
-						id: "itemfilters:tag"
+						Count: 1
+						id: "gtceu:wrought_iron_file"
 						tag: {
-							value: "forge:tools/files"
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								MaxDamage: 383
+							}
+							HideFlags: 2
 						}
 					}
-					title: "Any File!"
 					type: "item"
 				}
 				{
-					id: "23D6CF49FC7E82A9"
+					id: "3FF186658045B0D7"
 					item: {
-						Count: 1b
-						id: "itemfilters:tag"
+						Count: 1
+						id: "gtceu:wrought_iron_saw"
 						tag: {
-							value: "forge:tools/saws"
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								HarvestIce: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								MaxDamage: 383
+							}
+							HideFlags: 2
 						}
 					}
-					title: "Any Saw!"
 					type: "item"
 				}
 			]
