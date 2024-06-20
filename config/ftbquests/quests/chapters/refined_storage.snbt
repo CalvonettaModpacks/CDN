@@ -1,0 +1,831 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "refined_storage"
+	group: ""
+	icon: "refinedstorage:creative_controller"
+	id: "15AAF17B6665223D"
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2D46324208D530E5"]
+			description: [
+				"Virtualiza los items y accede a ellos por medio de una terminal."
+				""
+				"(Entre otras cosas)"
+			]
+			id: "01F18150EC923482"
+			rewards: [
+				{
+					id: "1E12C1FE61897E12"
+					item: "refinedstorage:machine_casing"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "0983E3CCF8BE5CF9"
+					item: "refinedstorage:basic_processor"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Mejor que los cofres"
+			tasks: [{
+				id: "196B8B6D59ABFC74"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
+			title: "Refined Storage!"
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7604D8B3C9FCCFD9"]
+			description: ["1k = 1000 items"]
+			id: "4101F8275B41C79B"
+			shape: "diamond"
+			tasks: [{
+				id: "1121780C6403D660"
+				item: "refinedstorage:1k_storage_part"
+				type: "item"
+			}]
+			title: "1k storage"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4101F8275B41C79B"]
+			id: "3FD801D7DE9176FB"
+			shape: "diamond"
+			tasks: [{
+				id: "1420D2099CBB6833"
+				item: "refinedstorage:4k_storage_part"
+				type: "item"
+			}]
+			title: "4k storage"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FD801D7DE9176FB"]
+			id: "03C78165C5CBD9E1"
+			shape: "diamond"
+			tasks: [{
+				id: "0346A00E2F8F7532"
+				item: "refinedstorage:16k_storage_part"
+				type: "item"
+			}]
+			title: "16k storage"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["03C78165C5CBD9E1"]
+			id: "3F8EEE1AD4420702"
+			shape: "hexagon"
+			tasks: [{
+				id: "02A8CBA1DAC84DAE"
+				item: "refinedstorage:64k_storage_part"
+				type: "item"
+			}]
+			title: "64k storage"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["65C8A43FEDBA3835"]
+			description: [
+				"Como la mesa de crafteo pero funciona con patrones y tu no tienes que hacer nada."
+				""
+				"Tambien puedes engancharlo a una maquina para automatizar dicha maquina con patrones de procesamiento (Processing Patterns)."
+			]
+			id: "44881E39AB1D62AA"
+			min_width: 300
+			rewards: [{
+				count: 4
+				id: "3351B9B6898579ED"
+				item: "refinedstorage:pattern"
+				random_bonus: 4
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "202A7EA0318662C5"
+				item: "refinedstorage:crafter"
+				type: "item"
+			}]
+			title: "Autocrafter"
+			x: 2.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["01F18150EC923482"]
+			description: [
+				"Cable"
+				"{@pagebreak}"
+				"Sí, un cable"
+			]
+			id: "6904EC449FBEE387"
+			rewards: [{
+				count: 8
+				id: "3940AD01E5D76358"
+				item: "refinedstorage:cable"
+				random_bonus: 8
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Cable"
+			tasks: [{
+				id: "1A2C2B95FDA9D2DA"
+				item: "refinedstorage:cable"
+				type: "item"
+			}]
+			title: "Cable"
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6904EC449FBEE387"]
+			description: [
+				"Permite importar bloques de una maquina/bloque a tu red."
+				""
+				"(AKA: Exportar de la maquina a la red)"
+			]
+			hide: true
+			id: "532229D285CA4858"
+			shape: "hexagon"
+			tasks: [{
+				id: "0E57EE9B975D05C3"
+				item: "refinedstorage:importer"
+				type: "item"
+			}]
+			title: "Importer"
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6904EC449FBEE387"]
+			description: ["Rompe el bloque que le pongas en frente y lo guarda en la red."]
+			hide: true
+			id: "6092490EC9008A05"
+			shape: "hexagon"
+			tasks: [{
+				id: "5762E9CE9A7D3FCA"
+				item: "refinedstorage:destructor"
+				type: "item"
+			}]
+			title: "Destructor"
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6904EC449FBEE387"]
+			description: [
+				"Pone el bloque que le digas en frente suyo."
+				""
+				"(si lo hay en la red)"
+			]
+			hide: true
+			id: "2CFEE04BA574921E"
+			shape: "hexagon"
+			tasks: [{
+				id: "2BB33FEBA2B071DF"
+				item: "refinedstorage:constructor"
+				type: "item"
+			}]
+			title: "Constructor"
+			x: -5.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6904EC449FBEE387"]
+			description: [
+				"Permite exportar items de tu red de RS a una maquina o bloque."
+				""
+				"(AKA: importar items a la maquina)"
+			]
+			hide: true
+			id: "4CD83943865018EA"
+			shape: "hexagon"
+			tasks: [{
+				id: "528F054C15BB7191"
+				item: "refinedstorage:exporter"
+				type: "item"
+			}]
+			title: "Exporter"
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7604D8B3C9FCCFD9"]
+			description: [
+				"Ah si, tambien puedes almacenar fluidos. (liquidos o gases)"
+				""
+				"64k = 64000 litros = 64000 cubos"
+			]
+			id: "4B81E84CAE814BA9"
+			shape: "diamond"
+			tasks: [{
+				id: "3F9B17A338B2EEFE"
+				item: "refinedstorage:64k_fluid_storage_part"
+				type: "item"
+			}]
+			title: "64k fluid"
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4B81E84CAE814BA9"]
+			id: "39C8E1705EF1CD31"
+			shape: "diamond"
+			tasks: [{
+				id: "440737C224526B0B"
+				item: "refinedstorage:256k_fluid_storage_part"
+				type: "item"
+			}]
+			title: "256k fluid"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39C8E1705EF1CD31"]
+			id: "60244F26B9ABED49"
+			shape: "diamond"
+			tasks: [{
+				id: "40AEA1CE52FAFCAB"
+				item: "refinedstorage:1024k_fluid_storage_part"
+				type: "item"
+			}]
+			title: "1024k fluid"
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["60244F26B9ABED49"]
+			description: ["Que coño tienes que guardar?"]
+			id: "3751015CD5C84134"
+			rewards: [{
+				id: "1BF095899A5270F5"
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2B57DE504688FC8D"
+				item: "refinedstorage:4096k_fluid_storage_part"
+				type: "item"
+			}]
+			title: "4096k fluid"
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6904EC449FBEE387"]
+			description: [
+				"Utilizalo para volver cualquier tipo de almacenamiento (cofres, barriles, armarios...) visibles a tu red de RS."
+				""
+				"Puede ser una alternativa a usar discos de almacenamiento."
+			]
+			hide: true
+			id: "253657BE5D9D9162"
+			min_width: 300
+			rewards: [{
+				id: "13EECF7FAC7FCEDD"
+				item: "refinedstorage:advanced_processor"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4D9E7CCF420BDE8C"
+				item: "refinedstorage:external_storage"
+				type: "item"
+			}]
+			title: "Almacenamiento Externo"
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["01F18150EC923482"]
+			description: ["Este bloque te permite gestionar el acceso a tu red y controlar quien tiene acceso."]
+			id: "3B84215240D9F2CB"
+			min_width: 300
+			optional: true
+			rewards: [{
+				id: "03E85C433BFA3B18"
+				item: "refinedstorage:security_card"
+				type: "item"
+			}]
+			subtitle: "Chaves, te estoy viendo"
+			tasks: [{
+				id: "20F3020C07C9D22B"
+				item: "refinedstorage:security_manager"
+				type: "item"
+			}]
+			title: "Que no te roben"
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["12A43F82FC67A289"]
+			description: ["De nada sirve una red de RS sin terminal para acceder a ella..."]
+			id: "43E8912CB307E421"
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "68A80F00CAFF427D"
+				item: "refinedstorage:grid"
+				type: "item"
+			}]
+			title: "La terminal"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["43E8912CB307E421"]
+			description: ["Lo mismo, pero con mesa de crafteo integrada."]
+			id: "0F00BBDF3618B3BA"
+			shape: "diamond"
+			tasks: [{
+				id: "5B74E6CB7AB75F92"
+				item: "refinedstorage:crafting_grid"
+				type: "item"
+			}]
+			title: "Terminal de crafteo"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["59F5ED931FD70C55"]
+			description: [
+				"Permite escribir recetas en los patrones."
+				""
+				"Puedes abrir la receta en JEI y darle al \"+\" como si lo fueses a craftear."
+				""
+				"Ahora ya puedes usar los patrones para cosas utiles."
+			]
+			hide: true
+			id: "65C8A43FEDBA3835"
+			min_width: 300
+			shape: "square"
+			tasks: [{
+				id: "79E70744DBC24777"
+				item: "refinedstorage:pattern_grid"
+				type: "item"
+			}]
+			title: "Terminal de patrones"
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["43E8912CB307E421"]
+			description: ["Si tienes liquidos en la red, la terminal normal no te permite verlos. Esta si."]
+			id: "51E9D03CD755A607"
+			shape: "diamond"
+			tasks: [{
+				id: "4EAE7D47133842B1"
+				item: "refinedstorage:fluid_grid"
+				type: "item"
+			}]
+			title: "Terminal de liquidos"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6B04FC81351CD1AB"]
+			description: [
+				"Como la terminal portatil, pero no la tienes ni que poner."
+				""
+				"Click derecho y funciona. (si está en rango de un punto de acceso)"
+			]
+			id: "15ECBC8E174FA39B"
+			shape: "diamond"
+			tasks: [{
+				id: "1488D961F51ED182"
+				item: "refinedstorage:wireless_grid"
+				type: "item"
+			}]
+			title: "Terminal inalambrica"
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6B04FC81351CD1AB"]
+			description: ["Como la terminal inalambrica pero para fluidos."]
+			id: "7FA85713C86166DA"
+			shape: "diamond"
+			tasks: [{
+				id: "77FE4FDC2F752084"
+				item: "refinedstorage:wireless_fluid_grid"
+				type: "item"
+			}]
+			title: "Terminal de fluidos inalambrica"
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["43E8912CB307E421"]
+			description: ["Funciona sin encufarle un cable a la red."]
+			hide: false
+			hide_dependency_lines: false
+			id: "66D85424EC74EDCC"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "301E0669A3CD84EF"
+				item: {
+					Count: 1
+					id: "refinedstorage:portable_grid"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Terminal portatil"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["01F18150EC923482"]
+			description: ["Esta maquina almacena y expone a la red el contenido de los discos (unidades) de almacenamiento."]
+			id: "12A43F82FC67A289"
+			rewards: [{
+				id: "00AA98E6534D97EA"
+				item: "refinedstorage:4k_storage_disk"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Almacenamiento virtualizado"
+			tasks: [{
+				id: "3724447C3E0F9942"
+				item: "refinedstorage:disk_drive"
+				type: "item"
+			}]
+			title: "Bahia de discos"
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["12A43F82FC67A289"]
+			description: ["Permite mover items (o fluidos) virtualizados de un disco a otro"]
+			hide: true
+			id: "4844DEF57A2287B4"
+			shape: "hexagon"
+			tasks: [{
+				id: "057EA89AE615DA6D"
+				item: "refinedstorage:disk_manipulator"
+				type: "item"
+			}]
+			title: "Manipulador de discos"
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["43E8912CB307E421"]
+			description: ["Los patrones almacenan recetas que permiten que tu red de RS aprenda a craftear cosas."]
+			id: "59F5ED931FD70C55"
+			rewards: [{
+				count: 8
+				id: "4348758E87B788AE"
+				item: "refinedstorage:pattern"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "45359CC3EC90B74B"
+				item: "refinedstorage:pattern"
+				type: "item"
+			}]
+			title: "Autocrafting!"
+			x: 2.0d
+			y: -4.449999999999999d
+		}
+		{
+			dependencies: ["6904EC449FBEE387"]
+			description: ["Muestra la cantidad total en la red de un item indicado."]
+			hide: true
+			id: "64E85274D24FE394"
+			optional: true
+			rewards: [{
+				id: "6AC46C5C8136A9C3"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "59E1432B592B686C"
+				item: "refinedstorage:storage_monitor"
+				type: "item"
+			}]
+			title: "Monitor de Recursos"
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["43E8912CB307E421"]
+			dependency_requirement: "one_started"
+			description: ["La terminal inalambrica no funciona por arte de magia, necesita conectarse a algo."]
+			hide_dependency_lines: false
+			id: "6B04FC81351CD1AB"
+			shape: "hexagon"
+			tasks: [{
+				id: "48935A6041672A29"
+				item: "refinedstorage:wireless_transmitter"
+				type: "item"
+			}]
+			title: "Punto de acceso inalambrico"
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["12A43F82FC67A289"]
+			dependency_requirement: "one_started"
+			description: [
+				"El almacenamiento virtual funciona de la siguiente manera:"
+				""
+				"Las terminales usan energia para virtualizar items de minecraft y almacenarlos en lso discos/unidades de almacenamiento. Para sacar items siguen el proceso contrario."
+				""
+				"Ventajas:"
+				" - Almacenamiento generico, compacto, modularizable y escalable."
+				" - Todo lo que tienes es facilmente accesible por una terminal."
+				" - La terminal permite buscar por nombre, cantidad... lo que quieres"
+				""
+				"Craftea las partes del tamaño deseado y craftealas con las carcasas para obtener discos usables."
+			]
+			hide: true
+			id: "7604D8B3C9FCCFD9"
+			min_width: 300
+			rewards: [{
+				id: "2FA6F18B7EA82F48"
+				item: "refinedstorage:4k_storage_part"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "546B04909ABE8383"
+				item: "refinedstorage:storage_housing"
+				type: "item"
+			}]
+			title: "Carcasa de discos"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["01F18150EC923482"]
+			description: [
+				"Quizas te interese conectar subredes de RS a tu red principal."
+				""
+				"(O hayas llegado al tope de controladores en tu red principal y quieras ampliarlo.)"
+				""
+				"El emisor y transmisor te lo permiten."
+				""
+				"Para conectar el receptor a tu red principal necesitas una tarjeta de red (Network Card)"
+			]
+			id: "3E890BABC4C41370"
+			min_width: 300
+			rewards: [{
+				id: "7D644616E6416286"
+				item: "refinedstorage:network_card"
+				type: "item"
+			}]
+			subtitle: "Transmisor y receptor"
+			tasks: [
+				{
+					id: "2E028480454ECBB5"
+					item: "refinedstorage:network_transmitter"
+					type: "item"
+				}
+				{
+					id: "1CB0AFE99559C1B5"
+					item: "refinedstorage:network_receiver"
+					type: "item"
+				}
+			]
+			title: "Conexión de interred"
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4B81E84CAE814BA9"
+				"4101F8275B41C79B"
+			]
+			description: [
+				"Si la bahia de discos no te mola, puedes craftear los discos en bloques y enchufarlos a tu red directamente."
+				""
+				"Conservan el contenido al romperse."
+				""
+				"Pro tip: Puedes descraftearlos si das \"shift+click drecho\" mientras los tienes en la mano"
+			]
+			id: "62625CAF6649AB53"
+			optional: true
+			shape: "rsquare"
+			tasks: [{
+				id: "4540AB0231FE3B1A"
+				item: "refinedstorage:1k_storage_block"
+				type: "item"
+			}]
+			title: "Bloque de almacenamiento"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6092490EC9008A05"]
+			description: ["Permite ponerle encantamientos al destructor"]
+			hide_dependency_lines: false
+			id: "787415570026FFAA"
+			min_width: 300
+			optional: true
+			shape: "diamond"
+			tasks: [
+				{
+					id: "416E0011066156D2"
+					item: "refinedstorage:silk_touch_upgrade"
+					type: "item"
+				}
+				{
+					id: "086992D773D34C15"
+					item: "refinedstorage:fortune_3_upgrade"
+					type: "item"
+				}
+			]
+			title: "Mejora para el destructor"
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6904EC449FBEE387"]
+			dependency_requirement: "one_completed"
+			description: [
+				"\"Mejora de velocidad\" ¿que crees que hace?"
+				""
+				"\"Stack upgrade\" Hace que la interfaz/bloque mueva un stack de items por operacion en lugar de un solo item."
+			]
+			hide: true
+			id: "2B27E4E04A628C60"
+			rewards: [{
+				id: "4B859F9679182D36"
+				item: "refinedstorage:speed_upgrade"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0B3AB478E6493DBC"
+					item: "refinedstorage:speed_upgrade"
+					type: "item"
+				}
+				{
+					id: "2B39C12AEFA55C59"
+					item: "refinedstorage:stack_upgrade"
+					type: "item"
+				}
+			]
+			title: "Mejoras de velocidad"
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6904EC449FBEE387"]
+			description: ["Filtra los items visibles desde una terminal."]
+			hide: true
+			id: "35EC08D610382860"
+			optional: true
+			tasks: [{
+				id: "5BFCB4F5C8CCA8C9"
+				item: "refinedstorage:filter"
+				type: "item"
+			}]
+			title: "Filtro"
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6B04FC81351CD1AB"]
+			description: [
+				"Para aumentar el rango de tu punto de acceso."
+				""
+				"Puedes ponerle hasta 4."
+			]
+			hide: true
+			id: "2E2811D1A0F2A492"
+			rewards: [{
+				id: "56D7CD357A4D790B"
+				item: "refinedstorage:range_upgrade"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "{atm9.quest.rs.subt.range}"
+			tasks: [{
+				id: "7AB53C2469B768E0"
+				item: "refinedstorage:range_upgrade"
+				type: "item"
+			}]
+			title: "Mejora de rango"
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6904EC449FBEE387"]
+			description: [
+				"\"Regulator upgrade\" hace que tu sistema mantenga una cierta cantidad de items en un bloque o maquina. (si los hay en el sistema)"
+				""
+				"\"Crafting upgrade\" permite a los crafters recordar el crafteo si se quedan sin items."
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "30700E99091B712A"
+			min_width: 300
+			rewards: [
+				{
+					id: "085EEF00946EFDB6"
+					item: "refinedstorage:regulator_upgrade"
+					type: "item"
+				}
+				{
+					id: "684D20A983D190DB"
+					item: "refinedstorage:crafting_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "33CE02A9C852D835"
+					item: "refinedstorage:regulator_upgrade"
+					type: "item"
+				}
+				{
+					id: "37BB3E6C1BF5560C"
+					item: "refinedstorage:crafting_upgrade"
+					type: "item"
+				}
+			]
+			title: "Mejora de regulacion"
+			x: -8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["65C8A43FEDBA3835"]
+			description: ["Te permite ver que recetas estan en proceso."]
+			id: "7044EAB5EDF32BBC"
+			shape: "pentagon"
+			tasks: [{
+				id: "79FEA8AA18E5ED45"
+				item: "refinedstorage:crafting_monitor"
+				type: "item"
+			}]
+			title: "Monitorea la cola de crafteos"
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			description: [
+				"Estas misiones han sido robadas de ATM9."
+				""
+				"Los textos los he traducido yo al español. No estan completos, ni dan explicaciones, solo contexto."
+				""
+				"Pueden estar mal o tenerl agun fallo, usadlas como guia."
+			]
+			id: "2D46324208D530E5"
+			shape: "circle"
+			subtitle: "DISCLAIMER"
+			tasks: [{
+				id: "37036BB179ADDAD6"
+				title: "ALERTIUS CHUCLATIUM"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["15ECBC8E174FA39B"]
+			description: ["Rango infinito para la terminal inalambrica."]
+			id: "6E11BA072AAC5254"
+			subtitle: "Al infinito y más allá"
+			tasks: [{
+				id: "0C07EE2C00A3C7D3"
+				item: "rsinfinitybooster:infinity_card"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6E11BA072AAC5254"]
+			description: ["Rango interdimensional para tu terminal inalambrica."]
+			id: "16F432D664D04A8C"
+			subtitle: "Más allá del más allá"
+			tasks: [{
+				id: "036F27AEA1153682"
+				item: "rsinfinitybooster:dimension_card"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.5d
+		}
+	]
+	title: "Refined Storage"
+}

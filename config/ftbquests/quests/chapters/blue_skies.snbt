@@ -1,0 +1,1535 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "blue_skies"
+	group: ""
+	icon: "blue_skies:star_flare"
+	id: "0B0D9C6DF18D6709"
+	images: [
+		{
+			height: 1.0d
+			image: "blue_skies:textures/block/misc/sunstone_crystal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/block/misc/moonstone_crystal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/particle/everbright_portal_0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/particle/everbright_portal_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/particle/everbright_portal_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/particle/everdawn_portal_0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/particle/everdawn_portal_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/particle/everdawn_portal_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/item/misc/snowcap_mushroom.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			height: 3.0d
+			image: "blue_skies:textures/item/misc/poison_key.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 13.0d
+			y: 5.5d
+		}
+		{
+			height: 3.0d
+			image: "blue_skies:textures/item/misc/nature_key.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 13.5d
+			y: -4.5d
+		}
+		{
+			height: 3.0d
+			image: "blue_skies:textures/gui/journal/icons/alchemist.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			height: 3.0d
+			image: "blue_skies:textures/gui/journal/icons/summoner.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/block/plants/baneful_mushroom.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/block/plants/brewberry_bush.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/block/plants/crystal_flower.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/block/plants/brumble.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/block/plants/crescent_fruit_sapling.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/block/plants/bluebright_sapling.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/block/plants/lunar_sapling.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 4.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0E2A1E1A113D3D92"]
+			description: [
+				"Find the Gatekeeper and trade a book in exchange for his journal. You can find the houses spawning in either plains, mountains, and most snowy biomes."
+				""
+				"The Blue Journal, a book written by the Gatekeeper that’s filled with information discovered from his experiences in these dimensions. The more you progress through Blue Skies, the more pages you will unlock in the journal. You only need to obtain the blue journal item once. Afterwards, you can always find access to it by opening your inventory and clicking the tab on the right with the blue journal icon."
+			]
+			id: "2B1333F88EBD6BA9"
+			size: 1.5d
+			tasks: [{
+				id: "568F88A208517EF2"
+				item: "blue_skies:blue_journal"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2B1333F88EBD6BA9"]
+			description: ["The Everbright is a realm of eternal day and frigid cold. Home to large beasts and ethereal mobs, you’ll need to keep an eye on your back as you traverse through this world. Be sure to watch out for snow storms that bring thick fog and more enemies than usual. As you explore, you’ll encounter the Summoner’s Blinding Dungeon and the new Nature Dungeon, home of the Starlit Crusher."]
+			id: "72F9931405BEFE11"
+			rewards: [{
+				id: "0D0C4A128184386B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Find an Everbright portal and enter it"
+			tasks: [{
+				advancement: "blue_skies:everbright/enter"
+				criterion: ""
+				id: "5BDFF2D507551BCB"
+				type: "advancement"
+			}]
+			title: "Visit Dimension: Everbright"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2B1333F88EBD6BA9"]
+			description: ["The Everdawn has its sun forever rising. With this being a much more humid and warm world, insects and reptiles flourish. Before entering, it’s worth preparing for poison and fire as many parts of this world may inflict those on you. Venture across this diverse landscape to uncover the Alchemist’s Blinding Dungeon and then the new Poison Dungeon, lair of the Arachnarch."]
+			id: "26A94FF0B70C2076"
+			rewards: [{
+				id: "05A3333ADA798203"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Find an Everdawn portal and enter it"
+			tasks: [{
+				advancement: "blue_skies:everdawn/enter"
+				criterion: ""
+				id: "6940934934ACFA1C"
+				type: "advancement"
+			}]
+			title: "Visit Dimension: Everdawn"
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["72F9931405BEFE11"]
+			description: ["While you can't craft tools with this, you can use it to craft buckets, shears, anvils and most importantly, the tool box!"]
+			id: "4794A9B6D95E1E20"
+			rewards: [{
+				id: "4A0CB774722A7350"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [
+				{
+					id: "470DAC7819826553"
+					item: "blue_skies:ventium_ore"
+					type: "item"
+				}
+				{
+					id: "4565BA843F4B23E5"
+					item: "blue_skies:ventium_ingot"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["72F9931405BEFE11"]
+			description: ["In addition to its crafting uses, Falsite is used to grant tools bonus durability"]
+			id: "55F576A9B46CDEE9"
+			tasks: [
+				{
+					id: "01AC76C5CE6B9B27"
+					item: "blue_skies:falsite_ore"
+					type: "item"
+				}
+				{
+					id: "0B890F6FF84A3BAD"
+					item: "blue_skies:falsite_ingot"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["26A94FF0B70C2076"]
+			description: ["Used to craft the horizonite forge, and make tools with autosmelt."]
+			id: "1855EE653FA1E241"
+			rewards: [{
+				id: "40C5C5BAC158AA82"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [
+				{
+					id: "5777607817FD2E66"
+					item: "blue_skies:horizonite_ore"
+					type: "item"
+				}
+				{
+					id: "1F42CEC356F3E66E"
+					item: "blue_skies:horizonite_ingot"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependency_requirement: "one_completed"
+			description: ["Diopside has higher damage and armor toughness than charoite, but lower attack speed and armor."]
+			id: "1BCB46BE15E966C4"
+			rewards: [{
+				id: "450DBC66743428EB"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "3C7AA9093F02E5EE"
+				item: "blue_skies:diopside_gem"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			description: ["Similar tier to copper tools."]
+			id: "1665D4E72E5CDCC4"
+			rewards: [{
+				id: "2C6D2AA40167A001"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "67C208FF7EEE53DC"
+				item: "blue_skies:pyrope_gem"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependency_requirement: "one_completed"
+			description: ["Similar tier to iron tools."]
+			id: "420FF8CF919A5422"
+			rewards: [{
+				id: "76C7E7F88A305F5B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "4C8CBCD401253961"
+				item: "blue_skies:aquite"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			description: ["Similar Tier to Diamond Tools."]
+			id: "458F3157DF05FBE7"
+			rewards: [{
+				id: "67D58BB4DF3C3BFC"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "56C9F7472D873DC9"
+				item: "blue_skies:charoite"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependency_requirement: "one_completed"
+			description: ["Can be used to craft a moonstone, which emits light."]
+			id: "3FB1D4C5A889ACED"
+			rewards: [{
+				id: "25C6A8FE95D2D500"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "700620761F66D8AF"
+				item: "blue_skies:moonstone_shard"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["55F576A9B46CDEE9"]
+			description: ["Can be used as a method of teleportation."]
+			id: "5FC39CB208286BC5"
+			tasks: [
+				{
+					id: "12764173CB24F80E"
+					item: "blue_skies:star_emitter"
+					type: "item"
+				}
+				{
+					id: "482336D342523C44"
+					item: "blue_skies:astrolabe"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"55F576A9B46CDEE9"
+				"51C0535FF6ABCB08"
+			]
+			description: ["Unlike in the overworld some blue skies mobs can spawn in light. This block will help prevent that."]
+			id: "0078A54F3A658A51"
+			rewards: [{
+				id: "225BC9D628D6A81A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Keep the monsters at bay with this cool lantern!"
+			tasks: [{
+				id: "458A85ACB9EDAA88"
+				item: "blue_skies:warding_pearl"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2B1333F88EBD6BA9"]
+			description: ["Needed to light both the everbright and everdawn portals. Creates blue fire when used in the everbright, and black fire when in the everdawn."]
+			id: "644C1F036C73D23E"
+			rewards: [{
+				id: "632BE00B76665895"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "4C09EA1774298D99"
+				item: {
+					Count: 1
+					id: "blue_skies:zeal_lighter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1855EE653FA1E241"]
+			id: "4780D50B95651C50"
+			rewards: [{
+				id: "3673317FC8CAD069"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "38350CE309BFC73C"
+				item: "blue_skies:horizonite_forge"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4780D50B95651C50"]
+			description: ["fuel for the horizonite forge."]
+			id: "2C9161A4C75DAF7B"
+			tasks: [{
+				id: "7CC2AF6B99BB69A9"
+				item: "blue_skies:sunstone_crystal"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4794A9B6D95E1E20"]
+			description: ["The Tool Box can be used to change a blue skies tool's rod, and grant it bonus durability with a falsite ingot."]
+			id: "5C5D93DD699B0DE5"
+			rewards: [{
+				id: "1749F148E0D8F760"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Keeping your tools well repaired"
+			tasks: [{
+				id: "58C348F8AE1DFA74"
+				item: "blue_skies:tool_box"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			description: ["This table can be used to combine any 5 foods (even ones not from blue skies) into one. Most foods will also keep their effects when converted into the meal."]
+			id: "75170045DA295BD4"
+			rewards: [{
+				id: "43907F19FA49FD30"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "54C327253DA603E9"
+				item: "blue_skies:food_prep_table"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.5d
+		}
+		{
+			description: ["Both the everbright and everdawn need four of these to access their tower illager boss. Can't find all four? Here's a hint: check the brewing stands!"]
+			id: "2A1BA8C5A433CB02"
+			rewards: [{
+				id: "030B8F415D97643F"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "25A3C9BEE96D20D3"
+				item: "blue_skies:blinding_key"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["72F9931405BEFE11"]
+			id: "6D75A9B7EE136A30"
+			tasks: [{
+				entity: "blue_skies:summoner"
+				id: "7BE167B08F9B3A0F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["26A94FF0B70C2076"]
+			id: "50D7B576C27AE274"
+			tasks: [{
+				entity: "blue_skies:alchemist"
+				id: "45DBA3548D503CEE"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["72F9931405BEFE11"]
+			id: "5D453B4B8C1418C4"
+			rewards: [{
+				id: "48F2FE8C050C4A1F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [
+				{
+					id: "13F57381C07BFF8D"
+					item: "blue_skies:bluebright_log"
+					type: "item"
+				}
+				{
+					id: "58A6B30014D69599"
+					item: "blue_skies:starlit_log"
+					type: "item"
+				}
+				{
+					id: "4664B2750EA09926"
+					item: "blue_skies:frostbright_log"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["26A94FF0B70C2076"]
+			id: "14A0F3DA7B02F22D"
+			tasks: [
+				{
+					id: "019D862BC28808EA"
+					item: "blue_skies:lunar_log"
+					type: "item"
+				}
+				{
+					id: "10C05A2A9D1665CD"
+					item: "blue_skies:dusk_log"
+					type: "item"
+				}
+				{
+					id: "33636D8FBD0F4239"
+					item: "blue_skies:maple_log"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["50D7B576C27AE274"]
+			id: "00A6F781F98D8F25"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "68E2582E458F7FA4"
+				item: "blue_skies:poison_key"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6D75A9B7EE136A30"]
+			id: "3EBFB973D7E9DF7D"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "I recommend getting a blue skies axe and spear before fighting this living tree, or you are going to have a bad time..."
+			tasks: [{
+				id: "3F6182D58CE49A58"
+				item: "blue_skies:nature_key"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			id: "51C0535FF6ABCB08"
+			tasks: [{
+				id: "41311F9319F721F7"
+				item: "blue_skies:soul_fragment"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.5d
+		}
+		{
+			id: "7418E83C5222E027"
+			rewards: [{
+				id: "36C94211D24E0085"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "18DD1EAE18122264"
+				item: "blue_skies:winter_leaves"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -0.5d
+		}
+		{
+			id: "1B6BDDA980EE1701"
+			rewards: [{
+				id: "2D40AA329769B88A"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "512669B6E45D6ABF"
+				item: "blue_skies:fiery_beans"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.5d
+		}
+		{
+			id: "2A9C8988CF7D28E2"
+			rewards: [{
+				id: "73D4D54516CC79BC"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "4498AAB6E617566D"
+				item: "blue_skies:solnut"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			id: "6CDB598CD8C66C54"
+			rewards: [{
+				id: "108AF94561D12421"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "0807C54E9BC6A2A6"
+				item: "blue_skies:cryo_root"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.5d
+		}
+		{
+			id: "7EB63B54191C6460"
+			rewards: [{
+				id: "511A57DECDD45E2E"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "5273EB44FD04E159"
+				item: "blue_skies:scalefruit"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			id: "6BB21322BC98C330"
+			rewards: [{
+				id: "3B0724032B75B046"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "5B9F30CBD56D98CA"
+				item: "blue_skies:pine_fruit"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			id: "146434C41CFC3AFE"
+			rewards: [{
+				id: "657BC4F285F11CF4"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "60886CC5507194F4"
+				item: "blue_skies:crescent_fruit"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -0.5d
+		}
+		{
+			id: "08F3AFB30D91A73F"
+			rewards: [{
+				id: "7C7FCB25F88A4EDE"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "3534C11A605562E9"
+				item: "blue_skies:black_brewberry"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["72F9931405BEFE11"]
+			id: "3A0A937B1C45672D"
+			rewards: [{
+				id: "2F6E8D826687E389"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "0FD61AA185081600"
+				item: "blue_skies:azulfo_horn"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["26A94FF0B70C2076"]
+			id: "13080F1C460AE9E4"
+			rewards: [{
+				id: "507AB2ED24874F74"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "5EE1F878044F6297"
+				item: "blue_skies:fox_pelt"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["26A94FF0B70C2076"]
+			id: "688992BF934B789F"
+			rewards: [{
+				id: "0A1C40E6A183E874"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "58932707379BF2C6"
+				item: "blue_skies:bug_guts"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3EBFB973D7E9DF7D"]
+			description: [""]
+			id: "0DF7112340FB8A00"
+			subtitle: "Enter a Nature dungeon"
+			tasks: [{
+				advancement: "blue_skies:everbright/enter_nature_dungeon"
+				criterion: ""
+				id: "10CA0FD1B36472D4"
+				type: "advancement"
+			}]
+			x: 14.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["00A6F781F98D8F25"]
+			id: "1A14F33889B103A2"
+			subtitle: "Enter a Poison dungeon"
+			tasks: [{
+				advancement: "blue_skies:everdawn/enter_poison_dungeon"
+				criterion: ""
+				id: "323E4C253A858D73"
+				type: "advancement"
+			}]
+			x: 14.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5B94856F3F11992D"]
+			id: "0F57C6A3764FAEA3"
+			subtitle: "Use an Alchemy table"
+			tasks: [{
+				advancement: "blue_skies:everdawn/use_alchemy_table"
+				criterion: ""
+				id: "622580F658707662"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["688992BF934B789F"]
+			id: "31432302BD6EAA3B"
+			tasks: [{
+				advancement: "blue_skies:everdawn/kill_bug"
+				criterion: ""
+				id: "1FCE5C8469E650CD"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["35C5EAA0D938BEAA"]
+			id: "4AC62C9E31D53CFA"
+			subtitle: "Use a summoning table to summon artificial golem"
+			tasks: [{
+				advancement: "blue_skies:everbright/summon_artificial_golem"
+				criterion: ""
+				id: "3F34BB16C113E136"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6D75A9B7EE136A30"]
+			description: ["Used to summon your own minions"]
+			id: "35C5EAA0D938BEAA"
+			rewards: [{
+				count: 3
+				id: "45DE3E8852D391E1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "blue_skies:falsite_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B85F9D90BBFBD01"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "blue_skies:summoning_table"
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["50D7B576C27AE274"]
+			description: ["Used to convert blocks into similar blocks. Useful for changing the color of certain items like wool and dragon scales."]
+			id: "5B94856F3F11992D"
+			rewards: [{
+				count: 3
+				id: "46D8B179A7FD11EB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "blue_skies:ventium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FAE38E0256B9B67"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "blue_skies:alchemy_table"
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6D75A9B7EE136A30"]
+			description: ["Grants a speed boost when worn in the arcs section. This is not a curio."]
+			id: "436F1887204A780B"
+			tasks: [{
+				id: "29697E197BAE1105"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "blue_skies:ethereal_arc"
+					tag: {
+						ArcLevel: 0
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["50D7B576C27AE274"]
+			description: ["Grants invisibility while sneaking when worn in the arcs section. This is not a curio."]
+			id: "4B967D68D94BF6D0"
+			tasks: [{
+				id: "5CFE7120A7C1354D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "blue_skies:dusk_arc"
+					tag: {
+						ArcLevel: 0
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6D75A9B7EE136A30"]
+			description: ["A Spear that comes back to you when thrown."]
+			id: "2FF8B516AF58A07B"
+			tasks: [{
+				id: "0213B5D3AB346C6C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "blue_skies:soulbound_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["50D7B576C27AE274"]
+			description: ["A shield that can also be used as a weapon in the mainhand."]
+			id: "0E55EC2EF936A6A0"
+			tasks: [{
+				id: "772503C72F0324C4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "blue_skies:spike_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			id: "23316732E7BB16B0"
+			rewards: [{
+				id: "2B0530A9748C2C9D"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "309299466A56F100"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "blue_skies:brewberry"
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			description: ["This one grants regeneration when eaten. Grow it by planting standard brewberries on cherry grass."]
+			id: "68345D94E07C3BF8"
+			rewards: [{
+				id: "15E7A6407E17EB61"
+				type: "xp"
+				xp: 350
+			}]
+			tasks: [{
+				id: "141AE66EB547BD2B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "blue_skies:pink_brewberry"
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0DF7112340FB8A00"]
+			id: "42C50613B8627A90"
+			tasks: [{
+				id: "72B939DC99286643"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "blue_skies:crushing_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["644C1F036C73D23E"]
+			dependency_requirement: "one_completed"
+			description: ["Tools, Weapons and Armor outside the blue skies dimensions will be weaker when in them. You will want to make gear from the dimensions to help you progress."]
+			id: "1ED53320619BBE2F"
+			rewards: [{
+				count: 3
+				id: "2996B81A50A22E9E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "blue_skies:bluebright_stick"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "42AF295420E807BC"
+				title: "New Beginnings"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1ED53320619BBE2F"]
+			description: [
+				"Blue skies tools will be slightly different based on what stick you use in its recipe. Some give more durability while others give more attack speed. The Tool Box can be used to change the rod whenever you want."
+				""
+				"Spears from Blue Skies are throwable and are your main source of ranged attacks while in either of these dimensions. They also make a boss much easier later on."
+				""
+				"Try crafting blue skies tools and spears with these sticks and notice the change in durability and attack speed."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "blue_skies:bluebright_spear"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4115F1E842101C67"
+			rewards: [
+				{
+					count: 2
+					id: "3F9257A84AE0C21B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "blue_skies:frostbright_stick"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "58124DF996354112"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "blue_skies:lunar_stick"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "11A1D989E8A05328"
+				item: {
+					Count: 1
+					id: "blue_skies:bluebright_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Sticks and Spears"
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1A14F33889B103A2"]
+			id: "08907E5B9B51CA0B"
+			tasks: [{
+				id: "03D4F8CAEAC867F2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "blue_skies:venom_sac"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0DF7112340FB8A00"]
+			id: "3FE68164C3DE4CE3"
+			tasks: [{
+				id: "2BE404CE5DF5E2ED"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "blue_skies:starlit_crusher_trophy"
+					tag: {
+						BlockStateTag: {
+							tier: "bronze"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1A14F33889B103A2"]
+			id: "55DCFC46CB1A8F3F"
+			tasks: [{
+				id: "6D9A73BA0C0B1A67"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "blue_skies:arachnarch_trophy"
+					tag: {
+						BlockStateTag: {
+							tier: "bronze"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["50D7B576C27AE274"]
+			id: "03A7C00B4DB2FAAC"
+			subtitle: "I wouldn't really call summoning rocks \"alchemy\""
+			tasks: [{
+				id: "132D0A26C18ACA86"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "blue_skies:alchemy_scroll"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6D75A9B7EE136A30"]
+			id: "3BA5F4044D7638B0"
+			tasks: [{
+				id: "2AB6BAFD8FD16F51"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "blue_skies:summoning_tome"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["72F9931405BEFE11"]
+			description: ["A Furnace that runs on snowcaps."]
+			id: "27A5A1DE6F026D6A"
+			rewards: [{
+				count: 10
+				id: "743A5BC896AAB34A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "blue_skies:snowcap_pinhead"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F58E8D4D27AF105"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "blue_skies:snowcap_oven"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			description: ["Increases your melee damage while you are poisoned."]
+			id: "45879AD48D37550E"
+			tasks: [{
+				id: "1E424F0CCD46BA28"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "blue_skies:poison_arc"
+					tag: {
+						ArcLevel: 0
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 14.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0DF7112340FB8A00"]
+			description: ["Gives you special green hearts that regnerate over time."]
+			id: "2376F4CD121F43F6"
+			tasks: [{
+				id: "6C13E1AC163C42F9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "blue_skies:nature_arc"
+					tag: {
+						ArcLevel: 0
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 14.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0DF7112340FB8A00"]
+			id: "4BB067B6804664AF"
+			rewards: [{
+				count: 3
+				id: "600352F12435F5BE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "blue_skies:diopside_gem"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C580B7772D14D50"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "blue_skies:defying_starlight"
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1A14F33889B103A2"]
+			id: "29312FB9267276E4"
+			rewards: [{
+				count: 3
+				id: "3636BD0BD245B6C3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "blue_skies:charoite"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "58A789F36D9070FC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "blue_skies:venomous_encounter"
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4115F1E842101C67"]
+			description: [
+				"These Spears can be enchanted with Piercing as well as Loyalty, making them like a trident that's good for dealing with multiple mobs at once."
+				""
+				"To make them more relevant in this modpack there are enchanting table infusion enchanting recipes that allow you to enchant them with damage upgrades like Wrath which cannot be normally put on the spears."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "blue_skies:lunar_spear"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "apotheosis:infusion"
+						lvl: 1
+					}]
+				}
+			}
+			id: "458ABA83F93AD1B5"
+			rewards: [
+				{
+					count: 3
+					id: "32E7A47863EAC44B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "567320281CEECF4F"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				id: "37207F6CE2224755"
+				title: "Spear Enchanting"
+				type: "checkmark"
+			}]
+			title: "Spear Enchanting"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Las misiones están robadas de BMC4."
+				""
+				"Están en ingles, tirad de traductor."
+				""
+				"Puede que no estén del todo bien, usadlas como guia."
+			]
+			id: "0E2A1E1A113D3D92"
+			shape: "circle"
+			size: 2.0d
+			subtitle: "DISCLAIMER"
+			tasks: [{
+				id: "2F5C67F6B9E034A3"
+				title: "ALERTIUS CHUCLATIUM"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+	]
+	title: "Blue Skies"
+}

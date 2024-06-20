@@ -231,21 +231,14 @@
 			subtitle: "Batteries are great!"
 			tasks: [
 				{
-					count: 2L
-					id: "02A2F0C2179EB4E3"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:ingots/battery_alloy"
-						}
-					}
-					title: "Any #forge:ingots/battery_alloy"
+					id: "7B4585B39907E2EA"
+					item: "gtceu:lv_battery_hull"
 					type: "item"
 				}
 				{
-					id: "7B4585B39907E2EA"
-					item: "gtceu:lv_battery_hull"
+					count: 2L
+					id: "09FC8DED08AF9FA3"
+					item: { Count: 2, id: "gtceu:battery_alloy_ingot" }
 					type: "item"
 				}
 			]
@@ -263,11 +256,6 @@
 				"Where they shine however is the fact that they &6accept Covers&r, making them perfect candidates for buffers in automation."
 			]
 			id: "7CCC1BDDE0C67F16"
-			rewards: [{
-				id: "1CADDD995C2DD509"
-				item: "ae2:sky_stone_chest"
-				type: "item"
-			}]
 			shape: "rsquare"
 			size: 0.66d
 			subtitle: "Earlygame buffering"
@@ -1717,22 +1705,13 @@
 				"&9https://www.youtube.com/watch?v=u0ouTWgdcXk&r"
 			]
 			id: "0E72017800A9766C"
-			rewards: [{
-				id: "73455D7AB7929E27"
-				item: {
-					Count: 1b
-					id: "ae2:item_storage_cell_1k"
-					tag: { }
-				}
-				type: "item"
-			}]
 			shape: "rsquare"
 			size: 0.66d
 			subtitle: "Time to ditch those chests"
 			tasks: [{
-				id: "2080D5BB367332D3"
-				item: "ae2:cell_component_1k"
-				type: "item"
+				id: "00AB5DED20887E92"
+				title: "listo"
+				type: "checkmark"
 			}]
 			title: "The Digital Age? Already!?"
 			x: 4.5d
@@ -2048,79 +2027,13 @@
 			size: 0.66d
 			subtitle: "I Have Become Chronos"
 			tasks: [{
-				id: "5924F0A33AD22EC9"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:lv_world_accelerator"
-							}
-							{
-								Count: 1b
-								id: "gtceu:mv_world_accelerator"
-							}
-							{
-								Count: 1b
-								id: "gtceu:hv_world_accelerator"
-							}
-							{
-								Count: 1b
-								id: "gtceu:ev_world_accelerator"
-							}
-							{
-								Count: 1b
-								id: "gtceu:iv_world_accelerator"
-							}
-							{
-								Count: 1b
-								id: "gtceu:luv_world_accelerator"
-							}
-							{
-								Count: 1b
-								id: "gtceu:zpm_world_accelerator"
-							}
-							{
-								Count: 1b
-								id: "gtceu:uv_world_accelerator"
-							}
-						]
-					}
-				}
-				title: "World Accelerators"
+				id: "726B9A805B42F56C"
+				item: "gtceu:lv_world_accelerator"
 				type: "item"
 			}]
 			title: "At The Speed Of Light"
 			x: 7.875d
 			y: 1.125d
-		}
-		{
-			dependencies: ["46AD7A6F3B6775F5"]
-			description: [
-				"If you're a builder, &bweep no more&r - this custom multiblock, freshly made with the powers of &dKubeJS&r, is made for you."
-				""
-				"By providing the multiblock with a near-negligible amount of &6Construction Foam&r, you'll gain access to increased yields of many different &bbuilding blocks&r to spice up your base."
-				""
-				"Don't go too crazy!"
-				""
-				"&8(Crazy? I was crazy once!)&r"
-			]
-			hide_dependency_lines: false
-			icon: "gtceu:construction_core"
-			id: "11989C3388C969DF"
-			shape: "rsquare"
-			size: 0.75d
-			subtitle: "If you build it, they will come"
-			tasks: [{
-				id: "5635E327260121C3"
-				item: "gtceu:construction_core"
-				type: "item"
-			}]
-			title: "Building Resources"
-			x: 8.91d
-			y: 1.65d
 		}
 	]
 	subtitle: ["Tame electricity and make your first machines"]

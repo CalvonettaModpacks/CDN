@@ -358,30 +358,6 @@
 		}
 		{
 			dependencies: [
-				"6975F16F5B50F17F"
-				"16B735F9C391D260"
-			]
-			description: [
-				"&bDigital fluid storage&r is pretty cool. Each &b1k ME Fluid Storage Cell&r holds up to &d5 types&r of fluid, and can hold &6over 8,000 buckets&r of those 5 fluid types! That's more than a &3Super Tank 2&r!"
-				""
-				"You may want to &4format&r Fluid Storage Cells to certain types to prevent the network from clogging. Make a &3Cell Workbench&r to do so."
-			]
-			icon: "ae2:fluid_cell_housing"
-			id: "26E8E5C163340E5A"
-			shape: "rsquare"
-			size: 0.66d
-			subtitle: "\"Fluid Discretizer\"? Who's that?"
-			tasks: [{
-				id: "4717CD0721804BAC"
-				item: "ae2:fluid_cell_housing"
-				type: "item"
-			}]
-			title: "Digital Fluid Storage"
-			x: 3.375d
-			y: -0.75d
-		}
-		{
-			dependencies: [
 				"3568BC9742092FC5"
 				"124B32A0583A636A"
 				"16B735F9C391D260"
@@ -1327,27 +1303,6 @@
 			title: "Ammonia"
 			x: 6.75d
 			y: -0.75d
-		}
-		{
-			dependencies: ["6958029B5514D4EC"]
-			description: [
-				"With your new &bVacuum Freezer&r, you can now \"&ofreeze&r\" air into &aLiquid Air&r, granting access to &6Creative Flight&r! Do be sure to have a look at processing some additional &aLiquid Air&r - the products of its distillation are very appealing."
-				""
-				"&dXP Drain&r whilst flying has been &cdisabled&r in this pack."
-			]
-			icon: "better_angel_ring:angel_ring"
-			id: "4B4F53FB33DE1C62"
-			shape: "rsquare"
-			size: 0.66d
-			subtitle: "Modern-day Icarus"
-			tasks: [{
-				id: "6E9FE61644EE53AB"
-				item: "better_angel_ring:angel_ring"
-				type: "item"
-			}]
-			title: "I believe I can fly"
-			x: 9.0d
-			y: -5.25d
 		}
 		{
 			dependencies: ["4024C831C77101CA"]

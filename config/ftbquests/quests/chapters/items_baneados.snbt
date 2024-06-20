@@ -1,0 +1,74 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "items_baneados"
+	group: ""
+	icon: "minecraft:barrier"
+	id: "2706AFF141B8CB34"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "08A841A8C7261D64"
+			tasks: [{
+				id: "5FA6CEE52037CA5D"
+				item: {
+					Count: 1
+					id: "securitycraft:codebreaker"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "62C632D626325A63"
+			tasks: [{
+				id: "5395574D683F901D"
+				item: "securitycraft:bucket_f_water"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "1EB45F5DEE41FA3E"
+			tasks: [{
+				id: "7B61469E6B20DCF3"
+				item: "securitycraft:bucket_f_lava"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "33F1B12181BC6359"
+			tasks: [{
+				id: "2C0668A719654332"
+				item: "securitycraft:cage_trap"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Algunos de estos son crafteables (de momento), pero son ilegalisimos."
+				""
+				"A quien le pillemos con esto, le mandamos al Mosso d'Esquadra."
+			]
+			id: "61E504E66120043C"
+			tasks: [{
+				id: "668A31AB0CAED997"
+				title: "No usar ni craftear"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+	]
+	title: "Items baneados"
+}

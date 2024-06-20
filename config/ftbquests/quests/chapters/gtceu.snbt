@@ -42,27 +42,11 @@
 			shape: "square"
 			size: 0.75d
 			subtitle: "Begin your playthrough as before"
-			tasks: [
-				{
-					count: 6L
-					id: "34F2867EAF0914BF"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "minecraft:logs"
-						}
-					}
-					match_nbt: false
-					title: "Any Logs"
-					type: "item"
-				}
-				{
-					id: "22B6D3C1033D47DA"
-					item: "minecraft:crafting_table"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "22B6D3C1033D47DA"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
 			title: "The Beginning of it All"
 			x: -0.75d
 			y: -3.0d
@@ -179,474 +163,25 @@
 			size: 0.66d
 			subtitle: "Who needs Veinminer?"
 			tasks: [{
-				id: "3880A08A72884627"
+				id: "62CEF24A765B98AE"
 				item: {
-					Count: 1b
-					id: "itemfilters:or"
+					Count: 1
+					id: "gtceu:iron_axe"
 					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:aluminium_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
-									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 2
-										MaxDamage: 767
-										ToolSpeed: 8.0f
-									}
-									HideFlags: 2
-								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:vanadium_steel_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
-									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 3
-										MaxDamage: 1535
-										ToolSpeed: 5.0f
-									}
-									HideFlags: 2
-								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:naquadah_alloy_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									GT.Behaviours: {
-										DisableShields: 1b
-										RelocateMinedBlocks: 1b
-										TreeFelling: 1b
-									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 5
-										MaxDamage: 3071
-										ToolSpeed: 42.0f
-									}
-									HideFlags: 2
-								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:flint_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
-									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 2
-										MaxDamage: 63
-										ToolSpeed: 3.5f
-									}
-									HideFlags: 2
-								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:red_steel_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
-									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 3
-										MaxDamage: 2559
-										ToolSpeed: 9.0f
-									}
-									HideFlags: 2
-								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:blue_steel_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
-									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 3
-										MaxDamage: 1023
-										ToolSpeed: 17.0f
-									}
-									HideFlags: 2
-								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:rose_gold_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									Enchantments: [{
-										id: "minecraft:fortune"
-										lvl: 2s
-									}]
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
-									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 2
-										MaxDamage: 767
-										ToolSpeed: 14.0f
-									}
-									HideFlags: 2
-								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:hsse_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
-									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 4
-										MaxDamage: 3071
-										ToolSpeed: 7.0f
-									}
-									HideFlags: 2
-								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:iron_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
-									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 2
-										MaxDamage: 255
-										ToolSpeed: 4.0f
-									}
-									HideFlags: 2
-								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:titanium_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
-									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 3
-										MaxDamage: 1535
-										ToolSpeed: 10.0f
-									}
-									HideFlags: 2
-								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:neutronium_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									GT.Behaviours: {
-										DisableShields: 1b
-										RelocateMinedBlocks: 1b
-										TreeFelling: 1b
-									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 6
-										MaxDamage: 65534
-										ToolSpeed: 182.0f
-									}
-									HideFlags: 2
-									Unbreakable: 1b
-								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:duranium_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									GT.Behaviours: {
-										DisableShields: 1b
-										RelocateMinedBlocks: 1b
-										TreeFelling: 1b
-									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 5
-										MaxDamage: 8191
-										ToolSpeed: 16.0f
-									}
-									HideFlags: 2
-								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:bronze_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
-									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 2
-										MaxDamage: 191
-										ToolSpeed: 5.0f
-									}
-									HideFlags: 2
-								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:invar_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									Enchantments: [
-										{
-											id: "minecraft:efficiency"
-											lvl: 1s
-										}
-										{
-											id: "minecraft:bane_of_arthropods"
-											lvl: 3s
-										}
-									]
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
-									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 2
-										MaxDamage: 383
-										ToolSpeed: 6.0f
-									}
-									HideFlags: 2
-								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:sterling_silver_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									Enchantments: [{
-										id: "minecraft:smite"
-										lvl: 3s
-									}]
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
-									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 2
-										MaxDamage: 767
-										ToolSpeed: 5.0f
-									}
-									HideFlags: 2
-								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:cobalt_brass_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
-									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 2
-										MaxDamage: 1023
-										ToolSpeed: 4.5f
-									}
-									HideFlags: 2
-								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:tungsten_steel_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
-									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 4
-										MaxDamage: 2047
-										ToolSpeed: 11.0f
-									}
-									HideFlags: 2
-								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:damascus_steel_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									Enchantments: [{
-										id: "minecraft:fortune"
-										lvl: 3s
-									}]
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
-									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 3
-										MaxDamage: 1023
-										ToolSpeed: 8.0f
-									}
-									HideFlags: 2
-								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:tungsten_carbide_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
-									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 4
-										MaxDamage: 1023
-										ToolSpeed: 62.0f
-									}
-									HideFlags: 2
-								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:wrought_iron_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
-									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 2
-										MaxDamage: 383
-										ToolSpeed: 4.0f
-									}
-									HideFlags: 2
-								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:ultimet_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
-									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 4
-										MaxDamage: 2047
-										ToolSpeed: 12.0f
-									}
-									HideFlags: 2
-								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:steel_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
-									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 3
-										MaxDamage: 511
-										ToolSpeed: 7.0f
-									}
-									HideFlags: 2
-								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:stainless_steel_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
-									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 3
-										MaxDamage: 1023
-										ToolSpeed: 9.0f
-									}
-									HideFlags: 2
-								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:diamond_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
-									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 3
-										MaxDamage: 767
-										ToolSpeed: 8.0f
-									}
-									HideFlags: 2
-								}
-							}
-						]
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							DisableShields: 1b
+							TreeFelling: 1b
+						}
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 2
+							MaxDamage: 255
+							ToolSpeed: 4.0f
+						}
+						HideFlags: 2
 					}
 				}
-				title: "Grab any Lumber Axe!"
 				type: "item"
 			}]
 			title: "Lumbering On"
@@ -677,15 +212,8 @@
 			size: 0.66d
 			subtitle: "Murder, she Wrought"
 			tasks: [{
-				id: "3DAB1D757B3B049D"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:ingots/wrought_iron"
-					}
-				}
-				title: "Wrought Iron Ingot"
+				id: "23506960F2E0EC4E"
+				item: "gtceu:wrought_iron_ingot"
 				type: "item"
 			}]
 			title: "Better Than Iron"
@@ -813,51 +341,61 @@
 			}]
 			size: 0.75d
 			subtitle: "Isn't it ironic... don't you think?"
-			tasks: [{
-				id: "063705687ED657F5"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "minecraft:raw_iron"
-							}
-							{
-								Count: 1b
-								id: "gtceu:raw_yellow_limonite"
-							}
-							{
-								Count: 1b
-								id: "gtceu:raw_magnetite"
-							}
-							{
-								Count: 1b
-								id: "gtceu:raw_basaltic_mineral_sand"
-							}
-							{
-								Count: 1b
-								id: "gtceu:raw_granitic_mineral_sand"
-							}
-							{
-								Count: 1b
-								id: "gtceu:raw_pyrite"
-							}
-							{
-								Count: 1b
-								id: "gtceu:raw_goethite"
-							}
-							{
-								Count: 1b
-								id: "gtceu:raw_hematite"
-							}
-						]
-					}
+			tasks: [
+				{
+					id: "7E1C2A637CB2145B"
+					item: "minecraft:raw_iron"
+					optional_task: true
+					type: "item"
 				}
-				title: "Iron-bearing Ores"
-				type: "item"
-			}]
+				{
+					id: "3A5D09DA7B71A7F4"
+					item: "gtceu:raw_hematite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2B3B3EC4405091CF"
+					item: "gtceu:raw_goethite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5C40D6FD1A493F2A"
+					item: "gtceu:raw_magnetite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "13B4B247D9E03C8A"
+					item: "gtceu:raw_pyrite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5742CFF55C9DC5D1"
+					item: "gtceu:raw_yellow_limonite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3B271638E9F43CB0"
+					item: "gtceu:raw_granitic_mineral_sand"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "669CE417324E1371"
+					item: "gtceu:raw_basaltic_mineral_sand"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "39A4E7E9EE327435"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
 			title: "Iron, Iron, Iron!"
 			x: 0.75d
 			y: -3.0d
@@ -977,63 +515,92 @@
 			size: 0.75d
 			tasks: [
 				{
-					id: "4055931FAD6A5087"
+					id: "4F3F04CE5794451B"
 					item: {
-						Count: 1b
-						id: "itemfilters:tag"
+						Count: 1
+						id: "gtceu:wrought_iron_screwdriver"
 						tag: {
-							value: "forge:tools/screwdrivers"
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								MaxDamage: 383
+							}
+							HideFlags: 2
 						}
 					}
-					title: "Any Screwdriver!"
 					type: "item"
 				}
 				{
-					id: "0CB546DCA11BB335"
+					id: "26763730804CB226"
 					item: {
-						Count: 1b
-						id: "itemfilters:tag"
+						Count: 1
+						id: "gtceu:wrought_iron_wire_cutter"
 						tag: {
-							value: "forge:tools/wire_cutters"
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 383
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
 						}
 					}
-					title: "Any Wire Cutter!"
 					type: "item"
 				}
 				{
-					id: "4DF1C23D7DD1FAD6"
+					id: "3E5F394165B908B2"
 					item: {
-						Count: 1b
-						id: "itemfilters:tag"
+						Count: 1
+						id: "gtceu:wrought_iron_mortar"
 						tag: {
-							value: "forge:tools/mortars"
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								MaxDamage: 383
+							}
+							HideFlags: 2
 						}
 					}
-					title: "Any Mortar!"
 					type: "item"
 				}
 				{
-					id: "397DD831CA0665E7"
+					id: "6BDD8B6DF23A1935"
 					item: {
-						Count: 1b
-						id: "itemfilters:tag"
+						Count: 1
+						id: "gtceu:wrought_iron_knife"
 						tag: {
-							value: "forge:tools/knives"
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								AttackDamage: 2.0f
+								AttackSpeed: 2.8f
+								Damage: 0
+								MaxDamage: 383
+							}
+							HideFlags: 2
 						}
 					}
-					title: "Any Knife!"
 					type: "item"
 				}
 				{
-					id: "1BFE642ED0595A93"
+					id: "12FE0BD9686B02F1"
 					item: {
-						Count: 1b
-						id: "itemfilters:tag"
+						Count: 1
+						id: "gtceu:rubber_mallet"
 						tag: {
-							value: "forge:tools/mallets"
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								MaxDamage: 127
+							}
+							HideFlags: 2
 						}
 					}
-					title: "Any Soft Mallet!"
 					type: "item"
 				}
 			]
@@ -1092,28 +659,20 @@
 			}]
 			size: 0.75d
 			subtitle: "Gather more resources!"
-			tasks: [{
-				count: 32L
-				id: "616556ECE4DB6103"
-				item: {
-					Count: 32b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "minecraft:copper_ingot"
-							}
-							{
-								Count: 1b
-								id: "gtceu:tin_ingot"
-							}
-						]
-					}
+			tasks: [
+				{
+					count: 32L
+					id: "0C694349ECD71E61"
+					item: { Count: 32, id: "minecraft:copper_ingot" }
+					type: "item"
 				}
-				title: "32 Copper or Tin"
-				type: "item"
-			}]
+				{
+					count: 32L
+					id: "3B21396FC5CAF660"
+					item: { Count: 32, id: "gtceu:tin_ingot" }
+					type: "item"
+				}
+			]
 			title: "Onwards to the Age of Bronze!"
 			x: 3.75d
 			y: -1.5d
@@ -1209,52 +768,13 @@
 			subtitle: "Not here!"
 			tasks: [{
 				count: 48L
-				id: "3DF01E4FACBB1D53"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "minecraft:logs"
-					}
-				}
-				title: "We demand more logs."
+				id: "2113AF72A5C2BE5D"
+				item: { Count: 48, id: "minecraft:oak_log" }
 				type: "item"
 			}]
 			title: "Charcoal?"
 			x: 0.75d
 			y: -1.5d
-		}
-		{
-			dependencies: ["45969FFBF88F4FBB"]
-			description: [
-				"In this &blightweight&r modpack, we've included enough QoL to &o(hopefully)&r fit your needs, and the pack is &aperfectly playable&r as is."
-				""
-				"&dStorage Drawers&r and &dApplied Energistics 2&r make an appearance to help with &estorage&r and &6logistics&r. Their recipes have been modified to fit progression, but you hopefully won't need to play 50 hours to make your first &5Molecular Assembler&r. There are also a few other mods that you may wish to pursue for some &ahelpful QoL&r."
-				"{@pagebreak}"
-				"But maybe you require... &osomething more&r?"
-				""
-				"If you're playing solo, feel free to &aadd mods&r to your instance. Some more &bQoL&r could be nice... more &3Tech&r could sate your cravings... maybe even some &5magic mods&r, as long as you don't add &eProjectE&r. Promise?"
-				""
-				"On the 1.12.2 version of &aGregtech: CEu&r, there were multiple &aGregTech&r addons that may be ported to 1.19.2 in future. Rest assured that this pack will do its &dbest&r to support them if they make it to this version!"
-			]
-			icon: "minecraft:structure_void"
-			id: "1283B4D7B5D82193"
-			rewards: [{
-				id: "460EC827273306A5"
-				item: "storagedrawers:quantify_key"
-				type: "item"
-			}]
-			shape: "rsquare"
-			size: 0.66d
-			subtitle: "Omw to install DecoCraft"
-			tasks: [{
-				id: "70C69E5432F6C3BE"
-				title: "I accept responsibility for any mod conflicts ;)"
-				type: "checkmark"
-			}]
-			title: "More mods?"
-			x: 2.25d
-			y: 0.0d
 		}
 		{
 			dependencies: ["45969FFBF88F4FBB"]
@@ -1341,7 +861,7 @@
 				}
 			]
 			title: "A Minor Test of Strength"
-			x: 3.75d
+			x: 2.97d
 			y: 0.0d
 		}
 		{
@@ -1433,7 +953,7 @@
 				}
 			]
 			title: "Early Investments"
-			x: 5.25d
+			x: 4.29d
 			y: 0.0d
 		}
 		{

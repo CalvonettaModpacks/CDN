@@ -586,7 +586,6 @@
 			y: 1.98d
 		}
 		{
-			dependencies: ["2DAC91AF2EBB68E2"]
 			description: [
 				"&lWhy go parallel?"
 				""

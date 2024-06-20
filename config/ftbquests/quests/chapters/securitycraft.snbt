@@ -1,0 +1,817 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "securitycraft"
+	group: ""
+	icon: "securitycraft:keypad_item"
+	id: "299C0F32293F6F68"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["217AA7D06A586CEF"]
+			id: "75CF9E987E6C4393"
+			tasks: [{
+				id: "1692853865BED0CC"
+				title: "Defensa Activa"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["217AA7D06A586CEF"]
+			id: "75FB102FB490DAB7"
+			tasks: [{
+				id: "7C7688FDC9268739"
+				title: "Defensa pasiva"
+				type: "checkmark"
+			}]
+			title: "Defensa Pasiva"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Muchos de los bloques que añade SecurityCraft se pueden configurar."
+				""
+				"Algunos añaden configuraciones mediante una interfaz. (Click derecho)"
+				""
+				"Aunque, la mayoría, tambien te permiten tocar cosas extra con esta herramienta. Compruebalo, es muy util."
+				""
+				"En ambos casos puedes expandir la funcionalidad y/o la configurabilidad mediante mejoras. (module)"
+			]
+			id: "646614A9A6898BA1"
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Es importante que sepas esto"
+			tasks: [{
+				id: "569CEF5091FB445F"
+				item: "securitycraft:universal_block_modifier"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			id: "4CFA0A001CE5176E"
+			tasks: [{
+				id: "782B909CE3CD4751"
+				item: "securitycraft:universal_key_changer"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.0d
+		}
+		{
+			id: "46EF0CF740C72294"
+			tasks: [{
+				id: "7FC252691A090585"
+				item: {
+					Count: 1
+					id: "securitycraft:universal_owner_changer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			id: "4C569EEDD1D5AF22"
+			subtitle: "300 usos"
+			tasks: [{
+				id: "64B8461C946201C6"
+				item: {
+					Count: 1
+					id: "securitycraft:universal_block_reinforcer_lvl1"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4C569EEDD1D5AF22"]
+			id: "4B4B1F5235C67C14"
+			subtitle: "2700 usos"
+			tasks: [{
+				id: "56F54003D5744CB9"
+				item: {
+					Count: 1
+					id: "securitycraft:universal_block_reinforcer_lvl2"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4B4B1F5235C67C14"]
+			id: "254EC668FB9A7960"
+			subtitle: "infinitos usos"
+			tasks: [{
+				id: "413AE061CA0FA54E"
+				item: "securitycraft:universal_block_reinforcer_lvl3"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5A44C381D176EA3D"]
+			description: [
+				"Calma, solo el \"propietario\" puede quitar un bloque reforzado."
+				"Es decir, que no puede venir alguien y romperte tus bloques reforzados con esta herramienta."
+			]
+			id: "31AFBCE15A77CC3E"
+			subtitle: "Bueno, casi"
+			tasks: [{
+				id: "703662DCE81A6B54"
+				item: {
+					Count: 1
+					id: "securitycraft:universal_block_remover"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4AAE11A61D4218B2"]
+			id: "2B6830BD4F5E51BC"
+			tasks: [{
+				id: "3C2956FB3B462F93"
+				item: "securitycraft:keypad_item"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["75FB102FB490DAB7"]
+			id: "4AAE11A61D4218B2"
+			subtitle: "No uses 1234, por favor..."
+			tasks: [{
+				id: "002E25EFD8F7A58E"
+				title: "Cosas con contraseña"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B6830BD4F5E51BC"]
+			id: "729BE142EFD0CBFD"
+			tasks: [{
+				icon: "securitycraft:keypad_furnace"
+				id: "049C7BBE0FC84B8E"
+				observe_type: 0
+				timer: 0L
+				title: "Horno con contraseña"
+				to_observe: "securitycraft:keypad_furnace"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2B6830BD4F5E51BC"]
+			icon: "securitycraft:keypad_chest"
+			id: "0A91B4DD8293F79B"
+			tasks: [{
+				icon: "securitycraft:keypad_chest"
+				id: "2DB4A07C0A26186C"
+				observe_type: 0
+				timer: 0L
+				title: "Cofre con contraseña"
+				to_observe: "securitycraft:keypad_chest"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2B6830BD4F5E51BC"]
+			id: "657891C33019714E"
+			tasks: [{
+				icon: "securitycraft:keypad_barrel"
+				id: "5C71475C687BC5A8"
+				observe_type: 0
+				timer: 0L
+				title: "Barril con contraseña"
+				to_observe: "securitycraft:keypad_barrel"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2B6830BD4F5E51BC"]
+			id: "0CF4548170D89532"
+			tasks: [{
+				id: "14DE4151BA4D888A"
+				item: "securitycraft:keypad_frame"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0CF4548170D89532"]
+			id: "40D84968FB269A84"
+			tasks: [{
+				id: "76E860A42A327138"
+				item: "securitycraft:keypad"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4AAE11A61D4218B2"]
+			hide_dependency_lines: true
+			id: "7434AF3B0B0816C8"
+			tasks: [{
+				id: "644505EB17F97E36"
+				item: "securitycraft:door_indestructible_iron_item"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"40D84968FB269A84"
+				"7434AF3B0B0816C8"
+			]
+			id: "560F7527377A43C7"
+			tasks: [{
+				id: "18ED8A78C3D59FCF"
+				item: "securitycraft:keypad_door_item"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2C2BA668DAEB6A41"]
+			id: "253D479AF3981C7D"
+			tasks: [{
+				id: "47AA22268E1F609A"
+				item: "securitycraft:retinal_scanner"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["253D479AF3981C7D"]
+			id: "3374B630F9A900D1"
+			tasks: [{
+				id: "2D0257AC76412221"
+				item: "securitycraft:scanner_door_item"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4AAE11A61D4218B2"]
+			hide_dependency_lines: true
+			id: "58B26FD233E9E1A2"
+			tasks: [{
+				id: "0FD4B4BB77C155AC"
+				item: "securitycraft:reinforced_iron_trapdoor"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"40D84968FB269A84"
+				"58B26FD233E9E1A2"
+			]
+			id: "40CDBC8C1DE3B5FE"
+			tasks: [{
+				id: "1DCF46FBDA533C51"
+				item: "securitycraft:keypad_trapdoor"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2B6830BD4F5E51BC"]
+			id: "2C2BA668DAEB6A41"
+			subtitle: "¿Por que memorizar contraseñas cuando puedes usar tu cara?"
+			tasks: [{
+				id: "2715C68D0202B9D8"
+				title: "Mejor que una contraseña"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"4C569EEDD1D5AF22"
+				"4B4B1F5235C67C14"
+				"254EC668FB9A7960"
+			]
+			dependency_requirement: "one_completed"
+			id: "5A44C381D176EA3D"
+			subtitle: "¡Ahora es irrompible!"
+			tasks: [{
+				icon: "securitycraft:reinforced_stone"
+				id: "2804FE2109DC5BA6"
+				observe_type: 0
+				timer: 0L
+				title: "Refuerzalo todo"
+				to_observe: "securitycraft:reinforced_stone"
+				type: "observation"
+			}]
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["253D479AF3981C7D"]
+			id: "119055029EBD165E"
+			subtitle: "JAJAJA, ahora solo yo puedo leerlo"
+			tasks: [{
+				id: "210149A5B0F98DE5"
+				item: "securitycraft:secret_sign_item"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4AAE11A61D4218B2"]
+			id: "2DDE622464B8A656"
+			subtitle: "Enterate de todo lo que pasa en tu casa"
+			tasks: [{
+				id: "3305861970F163A1"
+				title: "¿Quien anda ahi?"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B6830BD4F5E51BC"]
+			id: "0DE24D0FC3C41793"
+			subtitle: "Una mini vitrina para fardar"
+			tasks: [{
+				id: "727EE7986421FB39"
+				item: "securitycraft:display_case"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2DDE622464B8A656"]
+			description: [
+				"Ponla en lugares estrategicos."
+				"No graba video, pero puedes ver la imagen en tiempo real."
+				"No, no necesita electricidad para funcionar."
+			]
+			hide_dependency_lines: true
+			id: "2889C4A124117679"
+			subtitle: "Como no..."
+			tasks: [{
+				id: "7179C5DBFC86F979"
+				item: "securitycraft:security_camera"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2889C4A124117679"]
+			description: [
+				"Click derecho a una camara para linkearla."
+				"(Cuando apuntes a una camara fijate en la hotbar si aparece una X o un tick)"
+				"Luego, click derecho a la nada y puedes consultar todas las camaras linkeadas."
+			]
+			id: "7FF0FB63E980B34D"
+			subtitle: "Desde algun lugar tendrás que ver las camaras"
+			tasks: [{
+				id: "49F82BF8433F3A44"
+				item: "securitycraft:camera_monitor"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2DDE622464B8A656"]
+			description: ["Te manda un mensaje por chat si alguien se acerca al radar."]
+			hide_dependency_lines: true
+			id: "59122CF58D7EE190"
+			subtitle: "Enterate de si alguien anda cerca"
+			tasks: [{
+				id: "572AE611D6A1B5F0"
+				item: "securitycraft:portable_radar"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2DDE622464B8A656"]
+			description: ["Cuando se le da una señal de redstone, hace un ruido ensordecedor."]
+			id: "5117C9C59094AC62"
+			subtitle: "Prohibido hacer Sound Griefing"
+			tasks: [{
+				id: "49ADCBEC938FA274"
+				item: "securitycraft:alarm"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0A91B4DD8293F79B"]
+			id: "29EAE61F95134128"
+			subtitle: "Que sepas que esto es reforzable"
+			tasks: [{
+				icon: "securitycraft:reinforced_hopper"
+				id: "445409CC699D1681"
+				observe_type: 0
+				timer: 0L
+				title: "Reinforced Hopper"
+				to_observe: "securitycraft:reinforced_hopper"
+				type: "observation"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2DDE622464B8A656"]
+			hide_dependency_lines: true
+			id: "633FF8BFF574AA6E"
+			subtitle: "Para hacer una habitación del panico"
+			tasks: [{
+				id: "32F2FFF97A5C7CD8"
+				item: "securitycraft:block_pocket_manager"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2DDE622464B8A656"]
+			description: ["Guarda un registro de los jugadores que han puesto/quitado bloques en un radio alrededor."]
+			hide_dependency_lines: true
+			id: "0E331498B3CB3F76"
+			subtitle: "Enterate hasta de cuando ponen/quitan bloques"
+			tasks: [{
+				id: "342D7E661F464E99"
+				item: "securitycraft:block_change_detector"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2DDE622464B8A656"]
+			description: ["Guarda un registro de los jugadores que se han acercado a él."]
+			hide_dependency_lines: true
+			id: "2AE2C6099FE59D0F"
+			subtitle: "Enterate de si alguien ha estado cerca"
+			tasks: [{
+				id: "55FBF080DE42909D"
+				item: "securitycraft:username_logger"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2DDE622464B8A656"]
+			description: [
+				"Permite detectar si un jugador lleva objetos de una lista dada y actuar en consecuencia. (Configurable)"
+				"Tienes que poner 2, uno delante del otro. (Se formará una especie de laser)"
+			]
+			hide_dependency_lines: true
+			id: "572FE446A856E98B"
+			subtitle: "¿Que llevas encima?"
+			tasks: [{
+				count: 2L
+				id: "6D010EC3A9A4789A"
+				item: "securitycraft:inventory_scanner"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			description: [
+				"No seas vago, hazte un manual."
+				"Esta sección no incluye todo el contenido que trae SecurityCraft, solo lo más importante."
+				""
+				"Si quieres cacharrear e ir más alla, puedes servirte de la guia oficial in-game. (El librito...)"
+				""
+				"DISCLAIMER: Que en esta sección se explique como fabricar ciertos \"artefactos\" (Ejem, ejem, minas) NO significa que sea legal usarlas como te de la gana. Actua mediante el sentido común y no tendrás problemas."
+			]
+			id: "217AA7D06A586CEF"
+			optional: true
+			subtitle: "Lo vas a necesitar..."
+			tasks: [{
+				id: "03A26763425258B6"
+				item: "securitycraft:sc_manual"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["75CF9E987E6C4393"]
+			id: "62D878AB969B4EB1"
+			subtitle: "Oh shit, here we go again..."
+			tasks: [{
+				id: "6CB2AA6A6F884EFF"
+				title: "KA-BOOM"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["62D878AB969B4EB1"]
+			description: [
+				"Explota cuando algo la pisa."
+				""
+				"Para quitarla: Desármala y pícala."
+			]
+			id: "5596700B065DD3B2"
+			subtitle: "Mina terrestre"
+			tasks: [{
+				id: "1816BA3F93D9A22A"
+				item: "securitycraft:mine"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7C4BCBD37202C9A3"]
+			description: [
+				"Explota cuando se interactua con él."
+				""
+				"Para quitarlo: Pícalo."
+				""
+				"Son la pesadilla de Xtrike..."
+			]
+			id: "6018080C8E5BE73A"
+			subtitle: "H.B.O."
+			tasks: [{
+				id: "1B31254F5DDC8E9D"
+				item: "securitycraft:furnace_mine"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5596700B065DD3B2"]
+			description: [
+				"El bloque de tierra y el H.B.O. son solo ejemplos."
+				""
+				"Si buscas, verás que se pueden esconder en muchos más bloques."
+			]
+			id: "7C4BCBD37202C9A3"
+			subtitle: "Puedes esconder las minsa en bloques"
+			tasks: [{
+				id: "29EF6C7C43A04FD5"
+				title: "Escondelas en bloques"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7C4BCBD37202C9A3"]
+			description: [
+				"Explota cuando algo la pisa."
+				""
+				"Para quitarla: Pícala."
+			]
+			id: "49F16C96CC21B6F6"
+			subtitle: "Ya hay que ser cabrón..."
+			tasks: [{
+				id: "06744211AEBDDDBD"
+				item: "securitycraft:dirt_mine"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5596700B065DD3B2"]
+			description: [
+				"Click derecho sobre una mina para linkearla. (Fijate en la hotbar cuando mires a una mina)"
+				""
+				"Click derecho a la nada para ver la interfaz."
+				"Puedes desarmar, rearmar, detonar o deslinkear minas."
+				""
+				"Funciona con minas, claymores y Bouncing Bettys."
+			]
+			id: "4404CAD913A50551"
+			subtitle: "Permite controlar tus minas"
+			tasks: [{
+				id: "3A93801A7A39141F"
+				item: "securitycraft:remote_access_mine"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5596700B065DD3B2"]
+			description: [
+				"Click derecho sobre cualquier mina, claymore, Bouncing Betty para desarmarla. (incluso las que no son tuyas)"
+				""
+				"No funciona con las minas-bloque."
+			]
+			id: "3148CD2655FA2C51"
+			subtitle: "Permite desarmar minas"
+			tasks: [{
+				id: "3B4E2923D46E6E52"
+				item: {
+					Count: 1
+					id: "securitycraft:wire_cutters"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5596700B065DD3B2"]
+			description: [
+				"Al ser detonada (pisada) salta a la altura de la cara antes de explotar."
+				""
+				"Su explosión es más grande que la de las minas normales."
+				""
+				"Para quitarla: Desármala y pícala."
+			]
+			id: "7C3B1D1165F1A461"
+			subtitle: "No se puede esconder, pero es más letal"
+			tasks: [{
+				id: "40E2E3825E60264C"
+				item: "securitycraft:bouncing_betty"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7C3B1D1165F1A461"]
+			description: [
+				"Explota cuando un objetivo pasa por delante."
+				""
+				"Distancia de detección configurable."
+				""
+				"Para quitarlo: Desármalo y pícalo."
+			]
+			id: "1CB537F37FABEEC3"
+			subtitle: "Como una mina con detección de movimiento"
+			tasks: [{
+				id: "0CDEA720F3E7E6EC"
+				item: "securitycraft:claymore"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7C3B1D1165F1A461"]
+			description: [
+				"Configurable para atacar a mobs hostiles y jugadores o solo uno de esos dos."
+				""
+				"Cuando un objetivo entra en su rango, lanza al aire una de sus cargas y se la lanza al objetivo como si fuera un misil."
+				""
+				"4 cargas, no es recargable."
+				""
+				"Para quitarlo: Pícalo."
+			]
+			id: "25244F6217639260"
+			subtitle: "¡Misiles de defensa!"
+			tasks: [{
+				id: "1CAE38BF2A0C9C60"
+				item: "securitycraft:ims"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7C4BCBD37202C9A3"]
+			description: [
+				"En lugar de explotar cuando se pisa, explota cuando una vagoneta pasa por encima."
+				""
+				"Para quitarlas: desármalas y pícalas."
+			]
+			id: "18DD3571D0B6994F"
+			subtitle: "Por favor, en granjas de aldeanos no"
+			tasks: [{
+				id: "160EC46CE8166C66"
+				item: "securitycraft:track_mine"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["62D878AB969B4EB1"]
+			id: "4AA950ACD82EDB27"
+			subtitle: "Esto sí que es para defenderte"
+			tasks: [{
+				id: "0B6D53894A1F7232"
+				title: "Si se mueve, le disparas"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4AA950ACD82EDB27"]
+			description: [
+				"Dispara a mobs hostiles y jugadores cuando entran en su rango. (Configurable)"
+				""
+				"Dispara con sus propios proyectiles por defecto."
+				"Pero, si le pones un cofre protegido con flechas debajo, usará esas."
+			]
+			id: "7A02AC2C7E0EDFFB"
+			subtitle: "Una torreta, literalmente"
+			tasks: [{
+				id: "1DDE31035D72B43A"
+				item: "securitycraft:sentry"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7A02AC2C7E0EDFFB"]
+			description: ["Permite linkear torretas y configurarlas a distancia."]
+			id: "6DE5CAAB949017A4"
+			subtitle: "El mando de la torreta"
+			tasks: [{
+				id: "717D78B1B298876F"
+				item: "securitycraft:remote_access_sentry"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7A02AC2C7E0EDFFB"]
+			description: ["Pues eso, destruye los proyectiles que entren e su rango con un láser."]
+			id: "5064A2873B7F657F"
+			subtitle: "Destruye proyectiles"
+			tasks: [{
+				id: "4ECBF5C62B2912EB"
+				item: "securitycraft:trophy_system"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5064A2873B7F657F"]
+			description: [
+				"En su rango de aacción, impide que los jugadores se teletransporten."
+				"Por ejemplo, usando ender pearls."
+			]
+			id: "19B91551670B1111"
+			subtitle: "Lo siento, no te puedes tpar aqui"
+			tasks: [{
+				id: "409FB04C844A816B"
+				item: "securitycraft:rift_stabilizer"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -8.0d
+		}
+	]
+	title: "SecurityCraft"
+}

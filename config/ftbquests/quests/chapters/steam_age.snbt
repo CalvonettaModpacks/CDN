@@ -94,28 +94,8 @@
 			size: 0.75d
 			subtitle: "Pressure! Pushin' down on me..."
 			tasks: [{
-				id: "0DC74FB54995F3F1"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:hp_steam_solid_boiler"
-							}
-							{
-								Count: 1b
-								id: "gtceu:hp_steam_liquid_boiler"
-							}
-							{
-								Count: 1b
-								id: "gtceu:hp_steam_solar_boiler"
-							}
-						]
-					}
-				}
-				title: "High Pressure Boilers"
+				id: "12A76BD11630CB1A"
+				item: "gtceu:hp_steam_solid_boiler"
 				type: "item"
 			}]
 			title: "High Pressure"
@@ -674,24 +654,8 @@
 			size: 0.66d
 			subtitle: "Liquids, gases... we don't discriminate"
 			tasks: [{
-				id: "006E5756DD2CFB97"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:bronze_small_fluid_pipe"
-							}
-							{
-								Count: 1b
-								id: "gtceu:bronze_normal_fluid_pipe"
-							}
-						]
-					}
-				}
-				title: "Bronze Fluid Pipe"
+				id: "4B1E25189D67181B"
+				item: "gtceu:bronze_normal_fluid_pipe"
 				type: "item"
 			}]
 			title: "Fluid Pipes"
@@ -963,24 +927,8 @@
 			size: 0.66d
 			subtitle: "...I'm going into battle, and I need only your finest Potin."
 			tasks: [{
-				id: "159D19181DC4DE59"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:potin_small_fluid_pipe"
-							}
-							{
-								Count: 1b
-								id: "gtceu:potin_normal_fluid_pipe"
-							}
-						]
-					}
-				}
-				title: "Potin Pipes!"
+				id: "77976E5062140055"
+				item: "gtceu:potin_normal_fluid_pipe"
 				type: "item"
 			}]
 			title: "Potin Seller..."
@@ -1085,15 +1033,8 @@
 			subtitle: "An Iron-Nickel alloy"
 			tasks: [{
 				count: 3L
-				id: "49E114B96843E5C9"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:ingots/invar"
-					}
-				}
-				title: "Invar Ingot"
+				id: "1D3B0B61319CFDA5"
+				item: { Count: 3, id: "gtceu:invar_ingot" }
 				type: "item"
 			}]
 			title: "Invar"
@@ -1123,26 +1064,11 @@
 			shape: "square"
 			size: 0.75d
 			subtitle: "The circuit-er part of circuits..."
-			tasks: [
-				{
-					id: "3704C06203B7485A"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:plates/wood"
-						}
-					}
-					optional_task: true
-					title: "Wood Plates"
-					type: "item"
-				}
-				{
-					id: "131521889242DDB8"
-					item: "gtceu:resin_printed_circuit_board"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "131521889242DDB8"
+				item: "gtceu:resin_printed_circuit_board"
+				type: "item"
+			}]
 			title: "Electronics #2: Circuit Boards"
 			x: 5.625d
 			y: 1.875d
@@ -1291,37 +1217,26 @@
 				"54AF8696674766B4"
 			]
 			description: [
-				"The &9Portable Cell&r serves as an early-game digital backpack alternative! It holds up to &a54&r types of items."
+				"A medida que avanzas en GregTech, las recetas se vuelven más complicadas. Los procesos escalan en complejidad y en abstracción."
 				""
-				"What's more, it acts just like a regular AE2 Storage Cell. Once you get an ME System running, you can simply drop it into an &aME Drive&r or &b&aME IO Port&r for convenience."
+				"Craftear todo a mano una y otra vez es una locura."
 				""
-				"The Portable Cell's energy only drains when it's open. With &6167 minutes&r of juice stored in it thanks to changed config, you shouldn't worry about it running out of energy."
+				"Por eso, es recomendable empezar a automatizar procesos desde pronto."
+				"Echale un ojo no solo a las posibilidades de almacenamiento que ofrece RS, sino al autocrafteo."
 				""
-				"Regardless, you will be able to &dcharge&r it in &7LV&r in &3machine Charger slots&r, &3Turbo Chargers&r or &3Battery Buffers&r."
-				"{@pagebreak}"
-				"&cWarning&r: Attempting to store items with very large NBT Tags may result in them getting &cstuck&r. So far it seems that the Building Gadgets, Terminal and Clipboards are &lsafe&r, but you never know what could happen."
-				""
-				"If something gets stuck, build a simple AE2 Network with just an Energy Acceptor, an IO Port and a Storage Bus on a chest, then place your Portable Cell inside the IO Port. This will spit out any stored items into the chest."
+				"Apoyate en la automatizacion para evitar el trabajo repetitivo con maquinas. Construye la infraestructura y que todos los materiales refinados se te procesen con pedirlos desde terminal."
 			]
-			icon: {
-				Count: 1b
-				id: "ae2:portable_item_cell_1k"
-				tag: { }
-			}
+			icon: "refinedstorage:white_grid"
 			id: "7DDCB711526F37A0"
 			shape: "circle"
 			size: 0.66d
-			subtitle: "A higher-tech Backpack! "
+			subtitle: "Es hora de evolucionar"
 			tasks: [{
-				id: "459D19A750BB8440"
-				item: {
-					Count: 1b
-					id: "ae2:portable_item_cell_1k"
-					tag: { }
-				}
-				type: "item"
+				id: "39C9491588F1517F"
+				title: "leido"
+				type: "checkmark"
 			}]
-			title: "Portable Cell"
+			title: "Refined Storage"
 			x: 4.5d
 			y: 0.75d
 		}
@@ -1375,28 +1290,8 @@
 			size: 0.66d
 			subtitle: "All your logistics woes are solved"
 			tasks: [{
-				id: "158F4EEDC214A3BA"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:tin_small_item_pipe"
-							}
-							{
-								Count: 1b
-								id: "gtceu:nickel_small_item_pipe"
-							}
-							{
-								Count: 1b
-								id: "gtceu:cobalt_small_item_pipe"
-							}
-						]
-					}
-				}
-				title: "Earlygame Item Pipes"
+				id: "524021CD9ABF53ED"
+				item: "gtceu:tin_normal_item_pipe"
 				type: "item"
 			}]
 			title: "Item Pipes"
